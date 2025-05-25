@@ -11,7 +11,7 @@ const config = {
 			{
 				pages: 'dist',
 				assets: 'dist',
-				fallback: "src/app.html"
+				fallback: "src/404.html"
 			}
 		),
 		paths: {
