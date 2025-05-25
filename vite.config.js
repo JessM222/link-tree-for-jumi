@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	build: {
 		rollupOptions: {
-			input: 'src/app.html'
+			input: resolve(__dirname, 'src/app.html')
 		}
 	},
 	base: '/link-tree-for-jumi/'
