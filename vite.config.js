@@ -3,10 +3,11 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path'
 
 export default defineConfig({
+	plugins: [sveltekit()],
 	build: {
 		rollupOptions: {
-			input: resolve(__dirname, 'src/app.html')
-		}
+			input: resolve(__dirname, 'src/app.html'),
+		},
 	},
 	base: '/link-tree-for-jumi/'
 });
