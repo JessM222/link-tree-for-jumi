@@ -13,7 +13,10 @@ const config = {
 				assets: 'dist',
 				fallback: "src/app.html"
 			}
-		)
+		),
+		paths: {
+			base: '/link-tree-for-jumi'
+		}
 	}
 };
 
